@@ -18,11 +18,7 @@ if (!config.api.port) {
 const app = express();
 app.use(express.json());
 
-function unused() {
-  // this function does nothing
-  // and is called nowherey
 
-}
 
 app.use(
   cors({
